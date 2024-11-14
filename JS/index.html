@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Estudo de JavaScript</h1>
+
+    <button onclick="exemploJavaScript()">Clique-me</button>
+
+    <div id="output">
+        <!-- O resultado do JavaScript será exibido aqui -->
+    </div>
+
+    <script>
+        function exemploJavaScript() {
+            // Seu código JavaScript aqui
+            var mensagem = "Olá, Mundo!";
+            document.getElementById("output").innerText = mensagem;
+        }
+    </script>
+
+</body>
+</html>

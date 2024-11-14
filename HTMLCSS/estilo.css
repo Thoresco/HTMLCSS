@@ -1,0 +1,19 @@
+body {
+    margin: 60px;
+    font-size: 17px;
+}H1{
+    align-items: center;
+    font-weight: 30px;
+    color: rgb(255, 51, 0);
+}
+p {
+    color: #00f;
+    font-size: 30px ;
+    font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    *letter-spacing:5px;
+    *word-spacing: 20px;
+    line-height: 30px;
+    text-shadow: 1px 5px 44px black;
+
+}
